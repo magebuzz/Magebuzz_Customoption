@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <customoption_adminhtml_customoption_index>
+        <reference name="content">
+            <block type="customoption/adminhtml_customoption" name="customoption" />
+        </reference>
+    </customoption_adminhtml_customoption_index>
+		<customoption_adminhtml_customoption_productlistgrid>
+			<block type="core/text_list" name="root" output="toHtml">
+				<block type="customoption/adminhtml_customoption_grid" name="admin.customoption.grid"/>
+			</block>
+		</customoption_adminhtml_customoption_productlistgrid>
+</layout>
