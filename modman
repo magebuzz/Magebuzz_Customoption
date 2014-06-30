@@ -1,0 +1,3 @@
+app/code/local/Magebuzz/Customoption  app/code/local/Magebuzz/Customoption
+app/design/adminhtml/default/default/layout/customoption.xml  app/design/adminhtml/default/default/layout/customoption.xml
+app/etc/modules/Magebuzz_Customoption.xml  app/etc/modules/Magebuzz_Customoption.xml
