@@ -19,8 +19,8 @@ class Magebuzz_Customoption_Adminhtml_CustomoptionController extends Mage_Adminh
 		$collection=Mage::getModel('catalog/product_option')->getCollection();
 		$collection->addFieldToFilter('product_id',$id);
 		$collection->getSelect()
-					->distinct()
-					->join(array('tbl2'=>Mage::getSingleton('core/resource')->getTableName('catalog_product_option_title')),'tbl2.option_id=main_table.option_id');
+			->distinct()
+			->join(array('tbl2'=>Mage::getSingleton('core/resource')->getTableName('catalog_product_option_title')),'tbl2.option_id=main_table.option_id');
 		$options=$collection->getData();
 		foreach ($options as $option) {
 			$option_id=$option['option_id'];
