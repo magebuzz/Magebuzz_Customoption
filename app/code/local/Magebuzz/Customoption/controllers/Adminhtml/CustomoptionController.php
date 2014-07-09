@@ -1,5 +1,5 @@
 <?php
-class Magebuzz_Customoption_Adminhtml_CustomoptionController extends Mage_Adminhtml_Controller_action {
+class Magebuzz_Customoption_Adminhtml_CustomoptionController extends Mage_Adminhtml_Controller_Action {
 	protected function _initAction() {
 		$this->loadLayout()
 			->_setActiveMenu('customoption/items')
